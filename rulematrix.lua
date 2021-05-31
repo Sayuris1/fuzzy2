@@ -86,7 +86,7 @@ M.r1:addimplic( false, 'house', 'veryhigh' )
 
 -- Rule 14
 M.r1 = fuzzyHouse:addrule( 1, 'andmethod' )
-M.r1:addpremise( false, 'marketValue', 'high' )
+M.r1:addpremise( false, 'marketValue', 'veryhigh' )
 M.r1:addpremise( false, 'location', 'excellent' )
 M.r1:addimplic( false, 'house', 'veryhigh' )
 
